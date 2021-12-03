@@ -1,0 +1,1 @@
+data modify entity @e[type=minecraft:wandering_trader, tag=]

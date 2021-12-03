@@ -1,0 +1,1 @@
+tellraw @a {"text":"Hello World!","color":"yellow","extra":[{"text":"\nThe Random Quests datapack is created by Captive Hand Software","color":"aqua"},{"text":"\n Run /function captive_hand:random_quests/uninstall to uninstall.","color":"gray"}]}

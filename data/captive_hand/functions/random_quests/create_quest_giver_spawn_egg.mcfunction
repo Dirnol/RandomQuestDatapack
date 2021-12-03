@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~1 ~ {Tags:["quest_giver_egg"], Item:{id:"minecraft:wandering_trader_spawn_egg",Count:1b,tag:{HideFlags:63,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],EntityTag:{Tags:["custom_villager"],NoAI:1b,}}}}
