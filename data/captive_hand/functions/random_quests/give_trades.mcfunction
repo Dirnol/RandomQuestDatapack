@@ -1,1 +1,4 @@
-data modify entity @e[type=minecraft:wandering_trader, tag=]
+data modify entity @s Offers.Recipes set value {}
+data modify entity @s Offers.Recipes append value {rewardExp:0b,maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1b},buyB:{id:"minecraft:air",Count:1b},sell:{id:"written_book",Count:1b,tag:{pages:['{"text":"How are you seeing this?"}'],title:"Easy Quest",author:"Random Quests",display:{Name:"{\"text\":\"§2Easy Quest\"}"}}}}
+data modify entity @s Offers.Recipes append value {rewardExp:0b,maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1b},buyB:{id:"minecraft:air",Count:1b},sell:{id:"written_book",Count:1b,tag:{pages:['{"text":"How are you seeing this?"}'],title:"Medium Quest",author:"Random Quests",display:{Name:"{\"text\":\"§eMedium Quest\"}"}}}}
+data modify entity @s Offers.Recipes append value {rewardExp:0b,maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1b},buyB:{id:"minecraft:air",Count:1b},sell:{id:"written_book",Count:1b,tag:{pages:['{"text":"How are you seeing this?"}'],title:"Hard Quest",author:"Random Quests",display:{Name:"{\"text\":\"§cHard Quest\"}"}}}}
