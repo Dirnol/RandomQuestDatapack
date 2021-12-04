@@ -1,3 +1,4 @@
+#Clear Quest Giver default trades and populate trades with quest books
 data modify entity @s Offers.Recipes set value {}
 data modify entity @s Offers.Recipes append value {rewardExp:0b,maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1b},buyB:{id:"minecraft:air",Count:1b},sell:{id:"written_book",Count:1b,tag:{pages:['{"text":"How are you seeing this?"}'],title:"Easy Quest",author:"Random Quests",display:{Name:"{\"text\":\"§2Easy Quest\"}"}}}}
 data modify entity @s Offers.Recipes append value {rewardExp:0b,maxUses:2147483647,buy:{id:"minecraft:emerald",Count:1b},buyB:{id:"minecraft:air",Count:1b},sell:{id:"written_book",Count:1b,tag:{pages:['{"text":"How are you seeing this?"}'],title:"Medium Quest",author:"Random Quests",display:{Name:"{\"text\":\"§eMedium Quest\"}"}}}}
